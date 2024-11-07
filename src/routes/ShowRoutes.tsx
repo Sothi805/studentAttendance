@@ -7,7 +7,8 @@ import LayoutRoutes from './LayoutRoute';
 const ShowRoutes: React.FC = () => {
     return (
         <Routes>
-            <Route path='/' element={<Login />} />
+            <Route index element={<Login />} />
+            <Route path='/login' element={<Login />} />
             <Route path='/admin/*' element={<LayoutRoutes/>} />
         </Routes>
     );
