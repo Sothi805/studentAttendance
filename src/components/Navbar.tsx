@@ -11,7 +11,7 @@ const Navbar: React.FC = () => {
 
     return (
         <div id="navbar" className="navbar relative pt-2 pb-4 h-full">
-            <Link to={"/admin"} className="px-4 py-4 items-center flex gap-2">
+            <Link to={"/admin"} className="px-4 py-4 items-center flex gap-4">
                 <img className="h-[3rem]" src="../KASlogo.png" alt="image" />
                 <span className="font-bold text-white xl:text-xl text-sm">Khmer American School</span>
             </Link>
